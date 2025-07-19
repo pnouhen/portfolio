@@ -36,15 +36,16 @@
         <a
           class="font-base font-bold lg:text-2xl md:text-xl text-sm text-black"
           href="/assets/CV/CV_Pierre_NOUHEN_Developpeur_Web.pdf"
+          rel="noopener noreferrer"
         >
           Mon CV
         </a>
       </div>
     </header>
 
-    <main class="lg:px-5 p-0 lg:grid lg:grid-cols-2 flex flex-col lg:gap-10">
+    <main class="lg:px-5 p-0 lg:grid lg:grid-cols-[38fr_62fr] lg:[grid-auto-rows:minmax(200px,_auto)] flex flex-col gap-10">
       <section
-        class="section lg:col-start-1 lg:col-end-3 lg:w-2/3 w-11/12 my-0 mx-auto"
+        class="section lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-1 mx-auto lg:w-2/3 w-11/12"
       >
         <h2 class="h2">A propos</h2>
 
@@ -68,7 +69,7 @@
         </p>
       </section>
 
-      <section class="section lg:col-start-1 lg:col-end-2 flex flex-col gap-5">
+      <section class="section lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-4 lg:w-full mx-auto w-11/12 flex flex-col gap-5">
         <h2 class="h2">Comptétences</h2>
         <article class="flex flex-col gap-5">
           <h3 class="h3">Front-End</h3>
@@ -79,6 +80,7 @@
                 class="icon"
                 src="/assets/Icon/HTML5.svg"
                 alt="Icon de HTML5"
+                loading="lazy"
               />
               HTML5
             </li>
@@ -88,6 +90,7 @@
                 class="icon"
                 src="/assets/Icon/CSS.svg"
                 alt="Icon de CSS"
+                loading="lazy"
               />
               CSS3
             </li>
@@ -97,6 +100,7 @@
                 class="icon"
                 src="/assets/Icon/JS.svg"
                 alt="Icon de JavaScript"
+                loading="lazy"
               />
               JavaScript
             </li>
@@ -107,6 +111,7 @@
                   class="icon"
                   src="/assets/Icon/sass-brands-solid.svg"
                   alt="Icon de SASS"
+                  loading="lazy"
                 />
               </div>
               SASS
@@ -117,6 +122,7 @@
                 class="icon"
                 src="/assets/Icon/Tailwind.webp"
                 alt="Icon de Tailwind"
+                loading="lazy"
               />
               Tailwind
             </li>
@@ -126,6 +132,7 @@
                 class="icon"
                 src="/assets/Icon/Responsive-Web-Design.svg"
                 alt="Icon de Responsive Web Design"
+                loading="lazy"
               />
               Responsive Web Design
             </li>
@@ -135,6 +142,7 @@
                 class="icon"
                 src="/assets/Icon/react-brands-solid.svg"
                 alt="Icon de React"
+                loading="lazy"
               />
               React
             </li>
@@ -144,6 +152,7 @@
                 class="icon"
                 src="/assets/Icon/rest-api-blue-logo-22098.svg"
                 alt="Icon de API Rest"
+                loading="lazy"
               />
               Appel API REST
             </li>
@@ -159,6 +168,7 @@
                 class="icon"
                 src="/assets/Icon/GIT.svg"
                 alt="Icon de Git"
+                loading="lazy"
               />
               Git
             </li>
@@ -168,6 +178,7 @@
                 class="icon"
                 src="/assets/Icon/github-brands-solid.svg"
                 alt="Icon de Github"
+                loading="lazy"
               />
               Github
             </li>
@@ -175,8 +186,9 @@
             <li class="text li-skills">
               <img
                 class="icon"
-                src="/assets/Icon/vite-logo.svg"
+                src="/assets/Icon/Vite.webp"
                 alt="Icon de Vite"
+                loading="lazy"
               />
               Vite
             </li>
@@ -192,6 +204,7 @@
                 class="icon"
                 src="/assets/Icon/node-js.svg"
                 alt="Icon de Node.js"
+                loading="lazy"
               />
               Node.js
             </li>
@@ -201,6 +214,7 @@
                 class="icon"
                 src="/assets/Icon/icons8-express-js-50.svg"
                 alt="Icon d'Express.js"
+                loading="lazy"
               />
               Express.js
             </li>
@@ -210,6 +224,7 @@
                 class="icon"
                 src="/assets/Icon/mongodb.svg"
                 alt="Icon de MongoDB"
+                loading="lazy"
               />
               MongoDB
             </li>
@@ -217,12 +232,14 @@
         </article>
       </section>
 
-      <section id="SoftSkills" class="section lg:col-start-2 lg:col-end-3 flex flex-col gap-5">
+      <section class="section lg:col-start-2 lg:col-end-3 lg:w-full w-11/12 mx-auto flex flex-col gap-5">
         <h2 class="h2">Savoir-être Professionnels</h2>
         <ul class="flex flex-col justify-around gap-5 list-none">
           <li class="text">Méthodique & Rigoureux</li>
 
-          <li class="text">Autonome & Indépendant dans la réalisation de ses missions</li>
+          <li class="text">
+            Autonome & Indépendant dans la réalisation de ses missions
+          </li>
 
           <li class="text">Réfléchi & Goût pour la résolution de problème</li>
 
@@ -231,7 +248,150 @@
           <li class="text">Goût & Sens du travail collaboratif et en réseau</li>
         </ul>
       </section>
+
+      <section
+        class="slideShowHobbies section lg:col-start-1 lg:col-end-2 mx-auto lg:w-full w-11/12 overflow-hidden"
+      >
+        <h2 class="h2">Le carrousel des loisirs</h2>
+        <div class="slidesShow">
+          <button class="prevBtn" aria-label="Précédent">
+            <img
+              class="chevron"
+              src="/assets/Icon/chevron_left.svg"
+              alt="Flèche gauche"
+              loading="lazy"
+            />
+          </button>
+
+          <div class="slideShow-container">
+            <div class="flex">
+              <article class="slide">
+                <h3 class="h3 slideHobbietext slideHobbieH3">La capoeira</h3>
+                <img
+                  class="slideHobbieImg"
+                  src="/assets/img/slide/slide1.webp"
+                  alt="Photo de la capoeira"
+                  loading="lazy"
+                />
+                <p class="text slideHobbietext slideHobbieP">
+                  Développer ma capacité d'improvisation.
+                </p>
+              </article>
+
+              <article class="slide">
+                <h3 class="h3 slideHobbietext slideHobbieH3">Le crossfit</h3>
+                <img
+                  class="slideHobbieImg"
+                  src="/assets/img/slide/slide2.webp"
+                  alt="Photo de crossfit"
+                  loading="lazy"
+                />
+                <p class="text slideHobbietext slideHobbieP">
+                  Repousser mes limites.
+                </p>
+              </article>
+
+              <article class="slide">
+                <h3 class="h3 slideHobbietext slideHobbieH3">La batterie</h3>
+                <img
+                  class="slideHobbieImg"
+                  src="/assets/img/slide/slide3.webp"
+                  alt="Photo de batterie"
+                  loading="lazy"
+                />
+                <p class="text slideHobbietext slideHobbieP">
+                  Développer mon sens du rythme et ma créativité
+                </p>
+              </article>
+
+              <article class="slide">
+                <h3 class="h3 slideHobbietext slideHobbieH3">
+                  Sport saisonnier
+                </h3>
+                <img
+                  class="slideHobbieImg"
+                  src="/assets/img/slide/slide4.webp"
+                  alt="Photo sport saisonnier"
+                  loading="lazy"
+                />
+                <p class="text slideHobbietext slideHobbieP">
+                  Plongée sous-marine, surf et ski.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <button class="nextBtn" aria-label="Suivant">
+            <img
+              class="chevron"
+              src="/assets/Icon/chevron_right.svg"
+              alt="Flèche droite"
+              loading="lazy"
+            />
+          </button>
+        </div>
+        <ul class="dots"></ul>
+      </section>
+
+      <section class="section mx-auto lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-5 lg:w-full w-11/12 flex flex-col gap-5">
+        <h2 class="h2">Projet personnel</h2>
+        <article class="flex flex-col justify-center items-center gap-5">
+          <h3 class="h3">OhMyFood</h3>
+          <img
+            src="/assets/img/projects/OhMyFood.webp"
+            alt="Photo de OhMyFood"
+            loading="lazy"
+            class="h-72 w-full"
+          />
+          <a
+          class="text font-bold text-black cursor-pointer"
+            href="https://ohmyfood-pierre-nouhen.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cliquez ici pour accéder au projet
+          </a>
+          <p class="text">
+            Le projet initial d'OpenClassrooms avait pour objectif de nous
+            apprendre à utiliser SASS ainsi que les animations CSS pour créer un
+            site "mobile first". Ce site devait répertorier les menus de
+            restaurants gastronomiques, en mettant l'accent sur une expérience
+            utilisateur optimale sur mobile. Pour ce faire, j'ai choisi
+            d'intégrer React afin de faciliter l'ajout ou la suppression de
+            restaurants et de leurs menus correspondants.
+          </p>
+        </article>
+      </section>
     </main>
+
+    <footer class="mt-10 p-5 bg-blue-100 shadow-base">
+      <ul class="flex justify-around list-none">
+        <li class="footerLi">
+          <a
+            href="https://www.linkedin.com/in/pierre-nouhen-594684204/"
+            target="_blank"
+            class="text"
+          >
+            <img
+              src="/assets/Icon/linkedin-brands-solid.svg"
+              alt="Logo Linkedin"
+              class="footerImg"
+            />
+            Linkedin
+          </a>
+        </li>
+        <li  class="footerLi">
+          <a href="https://github.com/pnouhen" target="_blank" class="text">
+            <img
+              src="/assets/Icon/github-brands-solid.svg"
+              alt="Logo GitHub"
+              class="footerImg"
+            />
+            Github
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
