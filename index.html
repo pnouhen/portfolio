@@ -1,12 +1,237 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Pierre Nouhen, développeur web"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Pierre Nouhen Portfolio</title>
   </head>
   <body>
+    <header
+      class="lg:h-96 md:h-72 h-56 mb-10 lg:p-10 p-5 flex justify-start items-center lg:gap-10 gap-5 bg-blue-100 shadow-base"
+    >
+      <img
+        src="/assets/img/Photo-Profil.webp"
+        alt="Photo de l'auteur de la page"
+        class="lg:w-44 md:w-32 w-16 lg:h-64 md:h-52 h-24 rounded-3xl"
+      />
+      <div class="flex flex-col md:gap-8 gap-5">
+        <h1 class="font-h1 lg:text-5xl md:text-3xl text-lg">Pierre Nouhen</h1>
+        <p class="font-base md:text-3xl text-base text-inherit">
+          Developpeur Web / Web mobile.
+        </p>
+        <p class="font-base lg:text-2xl md:text-xl text-sm">
+          En formation avec le GRETA du Limousin et OpenClassrooms depuis le 09
+          décembre 2024
+        </p>
+        <a
+          class="font-base font-bold lg:text-2xl md:text-xl text-sm text-black"
+          href="/assets/CV/CV_Pierre_NOUHEN_Developpeur_Web.pdf"
+        >
+          Mon CV
+        </a>
+      </div>
+    </header>
+
+    <main class="lg:px-5 p-0 lg:grid lg:grid-cols-2 flex flex-col lg:gap-10">
+      <section
+        class="section lg:col-start-1 lg:col-end-3 lg:w-2/3 w-11/12 my-0 mx-auto"
+      >
+        <h2 class="h2">A propos</h2>
+
+        <p class="text">
+          <strong>Titulaire d'une Licence Professionnelle</strong> (Métiers du
+          conseil en élevage) et après
+          <strong
+            >plus de sept ans d'activité professionnelle dans le secteur de
+            l'élevage</strong
+          >
+          , j’ai entrepris
+          <strong>
+            une reconversion dans le développement web et web mobile</strong
+          >. Passionné par l’informatique et les nouvelles technologies, je me
+          forme pour
+          <strong>
+            concevoir des interfaces web adaptées aux besoins des
+            utilisateurs</strong
+          >
+          concevoir des interfaces web adaptées aux besoins des utilisateurs.
+        </p>
+      </section>
+
+      <section class="section lg:col-start-1 lg:col-end-2 flex flex-col gap-5">
+        <h2 class="h2">Comptétences</h2>
+        <article class="flex flex-col gap-5">
+          <h3 class="h3">Front-End</h3>
+
+          <ul class="ul-skills">
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/HTML5.svg"
+                alt="Icon de HTML5"
+              />
+              HTML5
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/CSS.svg"
+                alt="Icon de CSS"
+              />
+              CSS3
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/JS.svg"
+                alt="Icon de JavaScript"
+              />
+              JavaScript
+            </li>
+
+            <li class="text li-skills">
+              <div class="p-0.5 bg-pink rounded-sm">
+                <img
+                  class="icon"
+                  src="/assets/Icon/sass-brands-solid.svg"
+                  alt="Icon de SASS"
+                />
+              </div>
+              SASS
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/Tailwind.webp"
+                alt="Icon de Tailwind"
+              />
+              Tailwind
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/Responsive-Web-Design.svg"
+                alt="Icon de Responsive Web Design"
+              />
+              Responsive Web Design
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/react-brands-solid.svg"
+                alt="Icon de React"
+              />
+              React
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/rest-api-blue-logo-22098.svg"
+                alt="Icon de API Rest"
+              />
+              Appel API REST
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="h3">Outils</h3>
+
+          <ul class="ul-skills">
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/GIT.svg"
+                alt="Icon de Git"
+              />
+              Git
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/github-brands-solid.svg"
+                alt="Icon de Github"
+              />
+              Github
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/vite-logo.svg"
+                alt="Icon de Vite"
+              />
+              Vite
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3 class="h3">Back-end</h3>
+
+          <ul class="ul-skills">
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/node-js.svg"
+                alt="Icon de Node.js"
+              />
+              Node.js
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/icons8-express-js-50.svg"
+                alt="Icon d'Express.js"
+              />
+              Express.js
+            </li>
+
+            <li class="text li-skills">
+              <img
+                class="icon"
+                src="/assets/Icon/mongodb.svg"
+                alt="Icon de MongoDB"
+              />
+              MongoDB
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="SoftSkills" class="section lg:col-start-2 lg:col-end-3 flex flex-col gap-5">
+        <h2 class="h2">Savoir-être Professionnels</h2>
+        <ul class="flex flex-col justify-around gap-5 list-none">
+          <li class="text">Méthodique & Rigoureux</li>
+
+          <li class="text">Autonome & Indépendant dans la réalisation de ses missions</li>
+
+          <li class="text">Réfléchi & Goût pour la résolution de problème</li>
+
+          <li class="text">Sens de l'écoute client</li>
+
+          <li class="text">Goût & Sens du travail collaboratif et en réseau</li>
+        </ul>
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

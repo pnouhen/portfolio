@@ -1,0 +1,9 @@
+@theme {
+  --color-blue-100: #d1ecf3;
+  --color-pink : rgba(213, 110, 163);
+  --shadow-base: 0px 0px 20px 5px rgb(0, 0, 0, 0.5);
+
+  --font-h1: "Rubik Mono One", sans-serif;
+  --font-h2: "Candal", sans-serif;
+  --font-base: "Montserrat", sans-serif;
+}

@@ -1,3 +1,30 @@
 @import "tailwindcss";
 @import "./config.css";
 
+@layer utilities {
+    .section {
+        @apply p-5 rounded-3xl flex flex-col gap-5 bg-blue-100 shadow-base;
+    }
+
+    .h2 {
+        @apply font-h2 font-semibold lg:text-2xl md:text-lg text-base text-center;
+    }
+
+    .h3 {
+        @apply font-base font-semibold lg:text-xl md:text-lg text-base text-center;
+    }
+
+    .text {
+        @apply font-base lg:text-base text-sm;
+    }
+
+    .ul-skills {
+        @apply grid grid-cols-3 justify-center;
+    }
+    .li-skills {
+        @apply p-4 flex flex-col items-center justify-between gap-1.5 text-center;
+    }
+    .icon {
+        @apply w-full h-12 object-contain;
+    }
+}
