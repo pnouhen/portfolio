@@ -19,7 +19,7 @@
     }
 
     .ul-skills {
-        @apply grid grid-cols-3 justify-center gap-2;
+        @apply grid grid-cols-[27fr_27fr_27fr] justify-center gap-2;
     }
     .li-skills {
         @apply flex flex-col items-center justify-center gap-1.5 text-center;
