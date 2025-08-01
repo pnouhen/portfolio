@@ -19,7 +19,7 @@
   }
 
   .h4 {
-    @apply mb-2 font-base font-semibold lg:text-lg md:text-base text-sm;
+    @apply font-base font-semibold lg:text-lg md:text-base text-sm;
   }
 
   .text {
@@ -67,7 +67,7 @@
   }
 
   .slidesShow {
-    @apply h-full relative;
+    @apply relative;
   }
 
   .slideShow-container {
