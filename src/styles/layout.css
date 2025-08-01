@@ -2,93 +2,119 @@
 @import "./config.css";
 
 @layer utilities {
-    .section {
-        @apply p-5 rounded-3xl flex flex-col gap-5 bg-blue-100 shadow-base;
-    }
+  .section {
+    @apply mb-10 p-5 flex flex-wrap justify-center gap-y-5 bg-blue-100 shadow-base;
+  }
 
-    .h2 {
-        @apply font-h2 font-semibold lg:text-2xl md:text-lg text-base text-center;
-    }
+  .center {
+    @apply mx-auto lg:w-3/4 md:w-10/12 w-full;
+  }
 
-    .h3 {
-        @apply font-base font-semibold lg:text-xl md:text-lg text-base text-center;
-    }
+  .h2 {
+    @apply w-full font-h2 font-semibold lg:text-2xl md:text-xl text-lg text-center;
+  }
 
-    .text {
-        @apply font-base lg:text-base text-sm;
-    }
+  .h3 {
+    @apply font-base font-semibold lg:text-xl md:text-lg text-base text-center;
+  }
 
-    .ul-skills {
-        @apply grid grid-cols-[27fr_27fr_27fr] justify-center gap-2;
-    }
-    .li-skills {
-        @apply flex flex-col items-center justify-center gap-1.5 text-center;
-    }
-    .icon {
-        @apply w-8 h-8 object-contain;
-    }
+  .h4 {
+    @apply mb-2 font-base font-semibold lg:text-lg md:text-base text-sm;
+  }
 
-    .prevBtn, .nextBtn {
-        @apply absolute z-10 top-1/2 cursor-pointer;
-    }
+  .text {
+    @apply font-base lg:text-lg md:text-base text-sm;
+  }
 
-    .nextBtn {
-        @apply right-2;
-    }
+  .article-skills {
+    @apply flex flex-col gap-3;
+  }
 
-    .prevBtn {
-        @apply left-2;
-    }
+  .ul-skills {
+    @apply flex flex-wrap justify-between gap-2;
+  }
 
-    .chevron {
-        @apply h-8 w-full ;
-    }
+  .li-skills {
+    @apply lg:w-32 w-24 flex flex-col items-center justify-center text-center gap-1.5;
+  }
+  .icon-skill {
+    @apply w-8 h-8 object-contain;
+  }
 
-    .slidesShow {
-        @apply relative;
-    }
+  .ul {
+    @apply pl-5 flex flex-col justify-around gap-3 list-disc -indent-1;
+  }
 
-    .slideShow-container {
-        @apply flex overflow-hidden;
-    }
+  .icon-projects {
+    @apply lg:h-4 md:h-4 h-3.5 lg:w-4 md:w-4 w-3.5;
+  }
 
-    .slide {
-        @apply relative flex-none w-full;
-    }
+  .prevBtn,
+  .nextBtn {
+    @apply absolute z-10 top-1/2 cursor-pointer;
+  }
 
-    .dots {
-        @apply flex justify-center gap-1.5;
-    }
+  .nextBtn {
+    @apply right-2;
+  }
 
-    .dot {
-        @apply w-3 h-2 rounded-2xl border-2 border-black;
-    }
+  .prevBtn {
+    @apply left-2;
+  }
 
-    .dot-selected {
-        @apply bg-black;
-    }
+  .chevron {
+    @apply h-8 w-full max-md:hidden;
+  }
 
-    .slideHobbieImg {
-        @apply w-full h-full opacity-30;
-    }
+  .slidesShow {
+    @apply h-full relative;
+  }
 
-    .slideHobbietext {
-        @apply absolute z-10 w-full text-center;
-    }
+  .slideShow-container {
+    @apply flex overflow-hidden;
+  }
 
-    .slideHobbieH3 {
-        @apply top-5;
-    }
+  .slide {
+    @apply relative flex-none w-full;
+  }
 
-    .slideHobbieP {
-        @apply bottom-5;
-    }
+  .dots {
+    @apply flex justify-center lg:gap-10 md:gap-5 gap-3;
+  }
 
-    .footerLi {
-        @apply flex flex-col items-center;
-    }
-    
-    .footerImg{
-        @apply w-full h-8;
-    } 
+  .dot {
+    @apply lg:w-10 md:w-5 w-3  h-2 rounded-2xl border-2 border-black;
+  }
+
+  .dot-selected {
+    @apply bg-black;
+  }
+
+  .projects-container {
+    @apply flex flex-col gap-5;
+  }
+
+  .slideHobbieImg {
+    @apply w-full h-full opacity-30;
+  }
+
+  .slideHobbietext {
+    @apply absolute z-10 w-full text-center;
+  }
+
+  .slideHobbieH3 {
+    @apply top-5;
+  }
+
+  .slideHobbieP {
+    @apply bottom-5;
+  }
+
+  .footerLi {
+    @apply flex flex-col items-center;
+  }
+
+  .footerImg {
+    @apply w-full h-8;
+  }
 }
