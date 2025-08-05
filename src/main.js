@@ -1,3 +1,3 @@
 import './styles/layout.css'
 
-import "./slideShows/slideShowHobbies"
+import "./slideShows/slideShow"

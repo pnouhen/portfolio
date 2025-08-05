@@ -31,11 +31,11 @@
   }
 
   .ul-skills {
-    @apply flex flex-wrap justify-between gap-2;
+    @apply grid md:grid-cols-7 grid-cols-4 gap-2;
   }
 
   .li-skills {
-    @apply lg:w-32 w-24 flex flex-col items-center justify-center text-center gap-1.5;
+    @apply lg:w-32 md:w-28 w-24 flex flex-col items-center justify-center text-center gap-1.5;
   }
   .icon-skill {
     @apply w-8 h-8 object-contain;
@@ -49,25 +49,17 @@
     @apply lg:h-4 md:h-4 h-3.5 lg:w-4 md:w-4 w-3.5;
   }
 
-  .prevBtn,
-  .nextBtn {
+  .prevBtnHobbies,
+  .nextBtnHobbies {
     @apply absolute z-10 top-1/2 cursor-pointer;
   }
 
-  .nextBtn {
-    @apply right-2;
-  }
-
-  .prevBtn {
-    @apply left-2;
-  }
-
   .chevron {
-    @apply h-8 w-full max-md:hidden;
+    @apply md:h-8 h-4 md:w-5 w-2.5 cursor-pointer;
   }
 
   .slidesShow {
-    @apply relative;
+    @apply flex flex-col gap-5;
   }
 
   .slideShow-container {
@@ -75,11 +67,15 @@
   }
 
   .slide {
-    @apply relative flex-none w-full;
+    @apply w-full flex flex-col justify-center items-center gap-5 flex-none;
+  }
+
+  .slideshow-controls {
+    @apply flex justify-center gap-10;
   }
 
   .dots {
-    @apply flex justify-center lg:gap-10 md:gap-5 gap-3;
+    @apply flex justify-center items-center lg:gap-10 md:gap-5 gap-3;
   }
 
   .dot {
@@ -95,19 +91,7 @@
   }
 
   .slideHobbieImg {
-    @apply w-full h-full opacity-30;
-  }
-
-  .slideHobbietext {
-    @apply absolute z-10 w-full text-center;
-  }
-
-  .slideHobbieH3 {
-    @apply top-5;
-  }
-
-  .slideHobbieP {
-    @apply bottom-5;
+    @apply w-full h-full;
   }
 
   .footerLi {
@@ -118,3 +102,7 @@
     @apply w-full h-8;
   }
 }
+
+ .display-contents {
+    display: contents;
+  }

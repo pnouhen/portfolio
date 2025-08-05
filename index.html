@@ -72,7 +72,7 @@
       </section>
 
       <section class="section lg:flex-row flex-col">
-        <h2 class="h2">Comptétences</h2>
+        <h2 class="h2">Compétences techniques</h2>
 
         <div class="w-full flex flex-col items-center gap-4">
           <article class="article-skills center">
@@ -120,9 +120,7 @@
                 </div>
                 SASS
               </li>
-            </ul>
 
-            <ul class="ul-skills">
               <li class="text li-skills">
                 <img
                   class="icon-skill"
@@ -162,6 +160,16 @@
                 />
                 Appel API REST
               </li>
+
+              <li class="text li-skills">
+                <img
+                  class="icon-skill"
+                  src="/assets/Icon/Vite.webp"
+                  alt="Icon de Vite"
+                  loading="lazy"
+                />
+                Vite
+              </li>
             </ul>
           </article>
 
@@ -187,16 +195,6 @@
                   loading="lazy"
                 />
                 Github
-              </li>
-
-              <li class="text li-skills">
-                <img
-                  class="icon-skill"
-                  src="/assets/Icon/Vite.webp"
-                  alt="Icon de Vite"
-                  loading="lazy"
-                />
-                Vite
               </li>
             </ul>
           </article>
@@ -240,6 +238,39 @@
       </section>
 
       <section class="section flex flex-col gap-5">
+        <h2 class="h2">Compétences opérationnelles</h2>
+        <ul class="ul center">
+          <li class="text">
+            Analyse des besoins fonctionnels et techniques des projets web
+          </li>
+
+          <li class="text">
+            Conception et développement front-end : HTML, CSS, JavaScript,
+            React, Vue.js
+          </li>
+
+          <li class="text">
+            Intégration responsive et optimisation multi-navigateurs
+          </li>
+
+          <li class="text">Développement back-end basique avec Node.js</li>
+
+          <li class="text">Tests, débogage et correction des anomalies</li>
+
+          <li class="text">Participation à la mise en production</li>
+
+          <li class="text">
+            Collaboration avec équipes projets (design, gestion, clients)
+          </li>
+
+          <li class="text">
+            Veille technologique pour mise à jour des compétences et outils en
+            li
+          </li>
+        </ul>
+      </section>
+
+      <section class="section flex flex-col gap-5">
         <h2 class="h2">Savoir-être Professionnels</h2>
         <ul class="ul center">
           <li class="text">Méthodique & Rigoureux</li>
@@ -256,95 +287,239 @@
         </ul>
       </section>
 
-      <section class="section relative mx-auto lg:w-full flex flex-col gap-5">
+      <section
+        class="slideShowProjects section relative mx-auto lg:w-full flex flex-col gap-5"
+      >
         <h2 class="h2">Projet personnel</h2>
-        <article class="flex flex-col justify-center items-center gap-5">
-          <h3 class="h3">Explorer les réserves naturelles de France</h3>
-          <img
-            src="/assets/img/projects/carte-interactive.webp"
-            alt="Photo de OhMyFood"
-            loading="lazy"
-            class="h-full center object-cover"
-          />
-          <a
-            class="text font-bold text-black cursor-pointer"
-            href="https://pierre-nouhen-create-map-interactive.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Cliquez ici pour accéder au projet
-          </a>
-
-          <div class="center flex flex-col gap-4">
-            <div>
-              <div class="flex items-baseline gap-1">
+        <div class="slidesShow center">
+          <div class="slideShow-container">
+            <div class="flex">
+              <article class="slide">
+                <h3 class="h3">
+                  Refonte d’un site vitrine pour une nutritionniste
+                </h3>
                 <img
-                  src="/assets/Icon/bullseye-solid.svg"
-                  alt="Icone pour Objectif du projet"
-                  class="icon-projects"
+                  src="/assets/img/projects/lauraDiet.webp"
+                  alt="Photo de OhMyFood"
+                  loading="lazy"
+                  class="h-full object-cover"
                 />
-                <h4 class="h4">Objectif du projet :</h4>
-              </div>
+                <a
+                  class="text font-bold text-black cursor-pointer"
+                  href="https://pierrenouhen-laura-diet2-0.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cliquez ici pour accéder au projet
+                </a>
 
-              <p class="text">
-                Créer une carte interactive affichant les réserves naturelles
-                françaises avec des marqueurs personnalisés (polygons). Le but
-                est de permettre à l’utilisateur de filtrer facilement ces
-                réserves via plusieurs critères pertinents.
-              </p>
-            </div>
+                <div class="flex flex-col gap-4">
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/bullseye-solid.svg"
+                        alt="Icone pour Objectif du projet"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Objectif du projet :</h4>
+                    </div>
 
-            <div>
-              <div class="flex items-baseline gap-1">
-                <img
-                  src="/assets/Icon/puzzle-piece-solid.svg"
-                  alt="Icone pour Fonctionnalités principales"
-                  class="icon-projects"
-                />
-              <h4 class="h4">Fonctionnalités principales :</h4>
+                    <p class="text">
+                      Moderniser un site vitrine existant en y intégrant des
+                      fonctionnalités dynamiques orientées utilisateur, tout en
+                      facilitant la gestion de contenu pour l’administratrice
+                      (la nutritionniste).
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/rotate-solid.svg"
+                        alt="Icone pour Fonctionnalités principales"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Évolutions prévues :</h4>
+                    </div>
+
+                    <p class="text">
+                      Gestion de la connexion utilisateur sécurisée pour
+                      permettre l’achat de recettes. <br />
+                      Mise en place d’un espace administrateur pour modifier les
+                      tarifs et gérer les recettes (ajout, modification,
+                      suppression).
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/puzzle-piece-solid.svg"
+                        alt="Icone pour Fonctionnalités principales"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Fonctionnalités principales :</h4>
+                    </div>
+
+                    <p class="text">
+                      L’application propose une navigation multi-pages (Accueil,
+                      Qui-suis-je, etc.) avec des données (recettes, avis,
+                      tarifs) stockées dans MongoDB. Les recettes sont
+                      filtrables par catégorie et disposent d’une page dédiée.
+                      Les utilisateurs peuvent lire et publier des avis.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/brain-solid.svg"
+                        alt="Icone pour Compétences mises en œuvre"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Compétences mises en œuvre :</h4>
+                    </div>
+
+                    <p class="text">
+                      Architecture front-end réactive avec React et routing
+                      multi-pages. API REST avec Node.js/Express connectée à une
+                      base MongoDB. Filtres dynamiques et affichage conditionnel
+                      des données.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/gear-solid.svg"
+                        alt="Icone pour Compétences mises en œuvre"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Technologies utilisées</h4>
+                    </div>
+
+                    <p class="text">
+                      React, Vite, Tailwind, Node.js, Express et MongoDB
+                    </p>
+                  </div>
                 </div>
+              </article>
 
-              <p class="text">
-                Recherche de réserves naturelles par nom, affichage des
-                distances entre points, filtres par département, région, zone
-                circulaire cliquée ou surface calculée. Affichage précis des
-                réserves via polygones sur une carte interactive.
-              </p>
-            </div>
-
-            <div>
-              <div class="flex items-baseline gap-1">
+              <article
+                class="slide w-full flex flex-col justify-center items-center gap-5"
+              >
+                <h3 class="h3">Explorer les réserves naturelles de France</h3>
                 <img
-                  src="/assets/Icon/brain-solid.svg"
-                  alt="Icone pour Compétences mises en œuvre"
-                  class="icon-projects"
+                  src="/assets/img/projects/carte-interactive.webp"
+                  alt="Photo de OhMyFood"
+                  loading="lazy"
+                  class="h-full object-cover"
                 />
-              <h4 class="h4">Compétences mises en œuvre :</h4>
+                <a
+                  class="text font-bold text-black cursor-pointer"
+                  href="https://pierre-nouhen-create-map-interactive.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cliquez ici pour accéder au projet
+                </a>
+
+                <div class="flex flex-col gap-4">
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/bullseye-solid.svg"
+                        alt="Icone pour Objectif du projet"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Objectif du projet :</h4>
+                    </div>
+
+                    <p class="text">
+                      Créer une carte interactive affichant les réserves
+                      naturelles françaises avec des marqueurs personnalisés
+                      (polygons). Le but est de permettre à l’utilisateur de
+                      filtrer facilement ces réserves via plusieurs critères
+                      pertinents.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/puzzle-piece-solid.svg"
+                        alt="Icone pour Fonctionnalités principales"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Fonctionnalités principales :</h4>
+                    </div>
+
+                    <p class="text">
+                      Recherche de réserves naturelles par nom, affichage des
+                      distances entre points, filtres par département, région,
+                      zone circulaire cliquée ou surface calculée. Affichage
+                      précis des réserves via polygones sur une carte
+                      interactive.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/brain-solid.svg"
+                        alt="Icone pour Compétences mises en œuvre"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Compétences mises en œuvre :</h4>
+                    </div>
+
+                    <p class="text">
+                      Manipulation avancée de Leaflet, calculs géographiques
+                      avec Turf.js, filtres dynamiques, intégration d’une API,
+                      UI optimisée avec Tailwind, formatage de saisie avec
+                      Cleave.js.
+                    </p>
+                  </div>
+
+                  <div>
+                    <div class="flex items-baseline gap-1">
+                      <img
+                        src="/assets/Icon/gear-solid.svg"
+                        alt="Icone pour Compétences mises en œuvre"
+                        class="icon-projects"
+                      />
+                      <h4 class="h4">Technologies utilisées</h4>
+                    </div>
+
+                    <p class="text">
+                      Leaflet, Turf.js, Vite, Tailwind CSS, Cleave.js.
+                    </p>
+                  </div>
                 </div>
-
-              <p class="text">
-                Manipulation avancée de Leaflet, calculs géographiques avec
-                Turf.js, filtres dynamiques, intégration d’une API, UI optimisée
-                avec Tailwind, formatage de saisie avec Cleave.js.
-              </p>
-            </div>
-
-            <div>
-              <div class="flex items-baseline gap-1">
-                <img
-                  src="/assets/Icon/gear-solid.svg"
-                  alt="Icone pour Compétences mises en œuvre"
-                  class="icon-projects"
-                />
-              <h4 class="h4">Technologies utilisées</h4>
-              </div>
-
-              <p class="text">
-                Leaflet, Turf.js, Vite, Tailwind CSS, Cleave.js.
-              </p>
+              </article>
             </div>
           </div>
-        </article>
+
+          <div class="slideshow-controls">
+            <button class="prevBtn display-contents" aria-label="Précédent">
+              <img
+                class="chevron"
+                src="/assets/Icon/chevron_left.svg"
+                alt="Flèche gauche"
+                loading="lazy"
+              />
+            </button>
+            <ul class="dots"></ul>
+            <button class="nextBtn display-contents" aria-label="Suivant">
+              <img
+                class="chevron"
+                src="/assets/Icon/chevron_right.svg"
+                alt="Flèche droite"
+                loading="lazy"
+              />
+            </button>
+          </div>
+        </div>
       </section>
 
       <section
@@ -352,89 +527,85 @@
       >
         <h2 class="h2">Le carrousel des loisirs</h2>
         <div class="slidesShow center">
-          <button class="prevBtn" aria-label="Précédent">
-            <img
-              class="chevron"
-              src="/assets/Icon/chevron_left.svg"
-              alt="Flèche gauche"
-              loading="lazy"
-            />
-          </button>
-
           <div class="slideShow-container">
             <div class="flex">
               <article class="slide">
-                <h3 class="h3 slideHobbietext slideHobbieH3">La capoeira</h3>
+                <h3 class="h3 slideHobbieH3">La capoeira</h3>
                 <img
                   class="slideHobbieImg"
                   src="/assets/img/slide/slide1.webp"
                   alt="Photo de la capoeira"
                   loading="lazy"
                 />
-                <p class="text slideHobbietext slideHobbieP">
+                <p class="text slideHobbietext">
                   Développer ma capacité d'improvisation.
                 </p>
               </article>
 
               <article class="slide">
-                <h3 class="h3 slideHobbietext slideHobbieH3">Le crossfit</h3>
+                <h3 class="h3 slideHobbieH3">Le crossfit</h3>
                 <img
                   class="slideHobbieImg"
                   src="/assets/img/slide/slide2.webp"
                   alt="Photo de crossfit"
                   loading="lazy"
                 />
-                <p class="text slideHobbietext slideHobbieP">
-                  Repousser mes limites.
-                </p>
+                <p class="text slideHobbietext">Repousser mes limites.</p>
               </article>
 
               <article class="slide">
-                <h3 class="h3 slideHobbietext slideHobbieH3">La batterie</h3>
+                <h3 class="h3 slideHobbieH3">La batterie</h3>
                 <img
                   class="slideHobbieImg"
                   src="/assets/img/slide/slide3.webp"
                   alt="Photo de batterie"
                   loading="lazy"
                 />
-                <p class="text slideHobbietext slideHobbieP">
+                <p class="text slideHobbietext">
                   Développer mon sens du rythme et ma créativité
                 </p>
               </article>
 
               <article class="slide">
-                <h3 class="h3 slideHobbietext slideHobbieH3">
-                  Sport saisonnier
-                </h3>
+                <h3 class="h3 slideHobbieH3">Sport saisonnier</h3>
                 <img
                   class="slideHobbieImg"
                   src="/assets/img/slide/slide4.webp"
                   alt="Photo sport saisonnier"
                   loading="lazy"
                 />
-                <p class="text slideHobbietext slideHobbieP">
+                <p class="text slideHobbietext">
                   Plongée sous-marine, surf et ski.
                 </p>
               </article>
             </div>
           </div>
 
-          <button class="nextBtn" aria-label="Suivant">
-            <img
-              class="chevron"
-              src="/assets/Icon/chevron_right.svg"
-              alt="Flèche droite"
-              loading="lazy"
-            />
-          </button>
+          <div class="slideshow-controls">
+            <button class="prevBtn display-contents" aria-label="Précédent">
+              <img
+                class="chevron"
+                src="/assets/Icon/chevron_left.svg"
+                alt="Flèche gauche"
+                loading="lazy"
+              />
+            </button>
+            <ul class="dots"></ul>
+            <button class="nextBtn display-contents" aria-label="Suivant">
+              <img
+                class="chevron"
+                src="/assets/Icon/chevron_right.svg"
+                alt="Flèche droite"
+                loading="lazy"
+              />
+            </button>
+          </div>
         </div>
-         <ul class="dots"></ul>
-         
       </section>
     </main>
 
     <footer class="mt-10 p-5 bg-blue-100 shadow-base">
-      <ul class="center flex justify-between list-none">
+      <ul class="center flex justify-around list-none">
         <li class="footerLi">
           <a
             href="https://www.linkedin.com/in/pierre-nouhen-594684204/"
