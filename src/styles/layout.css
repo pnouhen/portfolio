@@ -91,7 +91,7 @@
   }
 
   .slideHobbieImg {
-    @apply w-full h-full;
+    @apply w-11/12 h-11/12;
   }
 
   .footerLi {
