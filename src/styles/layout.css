@@ -67,7 +67,7 @@
   }
 
   .slide {
-    @apply w-full flex flex-col justify-center items-center gap-5 flex-none;
+    @apply w-full flex flex-col items-center gap-5 flex-none;
   }
 
   .slideshow-controls {
@@ -87,7 +87,11 @@
   }
 
   .projects-container {
-    @apply flex flex-col gap-5;
+    @apply w-full flex flex-col gap-5;
+  }
+
+  .project-text {
+    @apply flex gap-1;
   }
 
   .slideHobbieImg {
@@ -103,6 +107,6 @@
   }
 }
 
- .display-contents {
-    display: contents;
-  }
+.display-contents {
+  display: contents;
+}
