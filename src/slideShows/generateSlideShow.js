@@ -3,7 +3,14 @@ import { generateDots } from "./generateDots";
 
 
 export function generateSlideShow(prevBtn, container, nextBtn, dots) {
-  const emblaApi = EmblaCarousel(container, { loop: true });
+  const options = {
+  loop: true,
+  breakpoints: {
+    "(min-width: 1024px)": { watchDrag: false },
+  },
+};
+
+const emblaApi = EmblaCarousel(container, options);
 
   prevBtn.addEventListener("click", () => emblaApi.scrollPrev());
   nextBtn.addEventListener("click", () => emblaApi.scrollNext());
