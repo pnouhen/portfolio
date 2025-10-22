@@ -27,11 +27,11 @@
   }
 
   .article-skills {
-    @apply flex flex-col gap-3;
+    @apply h-full flex flex-col gap-3;
   }
 
   .ul-skills {
-    @apply grid md:grid-cols-7 grid-cols-4 gap-2;
+    @apply h-full grid md:grid-cols-7 grid-cols-4 gap-2;
   }
 
   .li-skills {
