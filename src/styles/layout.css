@@ -35,7 +35,7 @@
   }
 
   .li-skills {
-    @apply lg:w-32 md:w-28 w-24 flex flex-col items-center justify-center text-center gap-1.5;
+    @apply lg:w-32 md:w-28 w-24 md:min-h-16 min-h-14 flex flex-col items-center justify-center text-center gap-1.5;
   }
   .icon-skill {
     @apply w-8 h-8 object-contain;
